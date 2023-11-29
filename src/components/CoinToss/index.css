@@ -1,0 +1,37 @@
+* .mainContainer {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  height: 500px;
+  width: 350px;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 120px;
+}
+
+.button {
+  background-color: #f9d423;
+  border: none;
+  padding: 7px;
+  border-radius: 9px;
+}
+.tails {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 10px;
+  width: 70%;
+}
